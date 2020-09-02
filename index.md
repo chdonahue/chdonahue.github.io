@@ -4,8 +4,7 @@ You can use the [editor on GitHub](https://github.com/chdonahue/chdonahue.github
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![Image of Yaktocat]
-(https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ### Markdown
 
