@@ -50,10 +50,17 @@
         }
 
         .profile-img {
-            width: 150px;
-            height: 150px;
+            object-fit: cover;  /* This prevents stretching */
+            width: 250px;
+            height: auto;
+            aspect-ratio: 1;  /* Forces square proportions */
             border-radius: 50%;
-            margin-bottom: 1rem;
+            /* margin-bottom: 1rem; */
+        }
+        .drink-calendar {
+            object-fit: cover;  /* This prevents stretching */
+            width: 400px;
+            height: auto;
         }
 
         .skills {
@@ -92,9 +99,9 @@
 </head>
 <body>
     <header>
-        <img src="/api/placeholder/150/150" alt="Your Profile Picture" class="profile-img">
-        <h1>Your Name</h1>
-        <p>Web Developer | Designer | Creator</p>
+        <img src="images/profile.jpg" alt="Your Profile Picture" class="profile-img">
+        <h1>Chris Donahue</h1>
+        <p>Data Scientist | Neuroscientist | Creator</p>
     </header>
 
     <nav>
@@ -106,42 +113,48 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm a passionate developer with expertise in web development and design. I love creating beautiful and functional websites that solve real-world problems.</p>
+            <p>I'm a data scientist and neuroscientist. I studied Applied Mathematics and Neurobiology, earning my Ph.D. in Neurobiology at Yale University. 
+                I am interested in using data and machine learning to answer real world questions and help bring value to others. In my spare time I enjoy 
+                running, skiing, playing poker, and spending time with my family. </p>
             <div class="skills">
-                <span class="skill-tag">HTML5</span>
-                <span class="skill-tag">CSS3</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">React</span>
-                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Data Science</span>
+                <span class="skill-tag">Computational Neuroscience</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Signal Processing</span>
             </div>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
             <article>
-                <h3>Project 1</h3>
-                <p>Description of your first project. What did you build? What technologies did you use? What problems did it solve?</p>
+                <h3>Drink Tracking App</h3>
+                <p>My first app for phone written with next.js and allows users to track and visualize their alcohol consumption. 
+                    I had no prior react/javascript experience and wrote it all with assistance from Claude. </p>
+                <a href="https://github.com/chdonahue/drink-tracker">GitHub</a><br>
+                <a href="https://drinktracker.net">www.drinktracker.net</a> (In testing: send me an email for access)<br>
+                <img src="images/january_2025.png" alt="drink app calendar" class="drink-calendar">
             </article>
             <article>
                 <h3>Project 2</h3>
-                <p>Description of your second project. Highlight your role and the impact of the project.</p>
+                <p>TBD.</p>
             </article>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
-            <p>Email: your.email@example.com</p>
+            <p>Email: donahue.chris AT gmail.com</p>
         </section>
     </main>
 
     <footer>
         <div class="social-links">
-            <a href="https://github.com/yourusername">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
-            <a href="https://twitter.com/yourusername">Twitter</a>
+            <a href="https://github.com/chdonahue">GitHub</a>
+            <a href="https://www.linkedin.com/in/christopher-donahue-11839820/">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=jxu00xAAAAAJ&hl=en">Google Scholar</a>
         </div>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Chris Donahue. All rights reserved.</p>
     </footer>
 </body>
 </html>
