@@ -21,14 +21,12 @@
 
     nav {
         background: #34495e;
-        margin: 0;
         padding: 1rem;
         text-align: center;
         display: flex;
         justify-content: space-around;
         flex-wrap: nowrap;
         width: 100%;
-        box-sizing: border-box;
     }
 
     nav a {
