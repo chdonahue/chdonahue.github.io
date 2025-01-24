@@ -4,163 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Your Name</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        nav {
-            background: #34495e;
-            padding: 1rem;
-            text-align: center;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: nowrap;
-            width: 100%;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0;
-            font-size: 0.9rem;
-            padding: 0.5rem;
-            border-radius: 4px;
-            transition: background 0.3s;
-            white-space: nowrap;
-        }
-
-        nav a:hover {
-            background: #465c71;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-
-        section {
-            margin-bottom: 3rem;
-        }
-
-        .profile-img {
-            object-fit: cover;  /* This prevents stretching */
-            width: 250px;
-            height: auto;
-            aspect-ratio: 1;  /* Forces square proportions */
-            border-radius: 50%;
-            /* margin-bottom: 1rem; */
-        }
-        .drink-calendar {
-            object-fit: cover;  /* This prevents stretching */
-            width: 300px;
-            height: auto;
-        }
-
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .skill-tag {
-            background: #3498db;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 4rem;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;  /* Consistent spacing */
-            flex-wrap: nowrap;  /* Prevents wrapping */
-        }
-        .social-links a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            white-space: nowrap;
-        }
-
-        .social-links a:hover {
-            text-decoration: underline;
-        }
-        .education-entry {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            border-left: 3px solid #3498db;
-            background: #f8f9fa;
-        }
-
-        .degree h3 {
-            margin: 0;
-            color: #2c3e50;
-        }
-
-        .institution {
-            font-weight: 500;
-            color: #34495e;
-            margin: 0.5rem 0;
-        }
-
-        .date {
-            color: #7f8c8d;
-            font-style: italic;
-            margin: 0;
-        }
-
-        .achievements {
-            margin-top: 1rem;
-            padding-left: 1.5rem;
-        }
-        .experience-entry {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            border-left: 3px solid #2ecc71;
-            background: #f8f9fa;
-            }
-
-            .role h3 {
-            margin: 0;
-            color: #2c3e50;
-            }
-
-            .company {
-            font-weight: 500;
-            color: #34495e;
-            margin: 0.5rem 0;
-            }
-
-            .responsibilities {
-            margin-top: 1rem;
-            padding-left: 1.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -182,10 +26,10 @@
                 <div class="role">
                     <h3>Consultant/Owner</h3>
                     <p class="company">Kaizen Therapeutics, LLC</p>
-                    <p class="date">2024 - Present</p>
+                    <p class="date">August 2024 - Present</p>
                 </div>
                 <ul class="responsibilities">
-                    <li>Specialize in building scalable data acquisition pipelines and ML solutions</li>
+                    <li>Building scalable data acquisition pipelines and ML solutions for enterprise clients</li>
                     <li>Medical education and pharma consulting </li>
                 </ul>
             </div>
@@ -193,11 +37,11 @@
                 <div class="role">
                     <h3>Lead Computational Neuroscientist</h3>
                     <p class="company">Wispr</p>
-                    <p class="date">2022-2024</p>
+                    <p class="date">March 2022 - July 2024</p>
                 </div>
                 <ul class="responsibilities">
                     <li>Led team of 6 computational neuroscientists on building a silent speech interface, 
-                        converting EMG signals to speech</li>
+                        decoding facial EMG signals to speech</li>
                     <li>Built end-to-end hardware and software system to acquire high-speed 3D kinematics used for lip tracking</li>
                 </ul>
             </div>
@@ -205,11 +49,22 @@
                 <div class="role">
                     <h3>Computational Neuroscientist</h3>
                     <p class="company">Inscopix</p>
-                    <p class="date">2021-2022</p>
+                    <p class="date">April 2021 - March 2022</p>
                 </div>
                 <ul class="responsibilities">
                     <li>Project lead responsible for experimental design and analysis for Parkinson's preclinical drug discovery program</li>
                     <li>Developed python-based data acquisition and analysis pipelines for large-scale behavioral and calcium imaging</li>
+                </ul>
+            </div>
+            <div class="experience-entry">
+                <div class="role">
+                    <h3>Staff Scientist</h3>
+                    <p class="company">Gladstone Institute of Neurological Disease</p>
+                    <p class="date">Mar 2014 - April 2021</p>
+                </div>
+                <ul class="responsibilities">
+                    <li>Electrophysiology, optogenetics, and calcium imaging to investigate basal ganglia circuit function during decision-making</li>
+                    <li>Funded research with 2 competitive NIH grants (F32 and K99), receiving &lt;5th percentile scores on each</li>
                 </ul>
             </div>
          </section>

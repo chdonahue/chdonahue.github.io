@@ -4,180 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Your Name</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        nav {
-            background: #34495e;
-            padding: 1rem;
-            text-align: center;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: nowrap;
-            width: 100%;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0;
-            font-size: 0.9rem;
-            padding: 0.5rem;
-            border-radius: 4px;
-            transition: background 0.3s;
-            white-space: nowrap;
-        }
-
-        nav a:hover {
-            background: #465c71;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-
-        section {
-            margin-bottom: 3rem;
-        }
-
-        .profile-img {
-            object-fit: cover;  /* This prevents stretching */
-            width: 250px;
-            height: auto;
-            aspect-ratio: 1;  /* Forces square proportions */
-            border-radius: 50%;
-            /* margin-bottom: 1rem; */
-        }
-        .drink-calendar {
-            object-fit: cover;  /* This prevents stretching */
-            width: 300px;
-            height: auto;
-        }
-
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-
-        .skill-tag {
-            background: #3498db;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 4rem;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;  /* Consistent spacing */
-            flex-wrap: nowrap;  /* Prevents wrapping */
-        }
-        .social-links a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            white-space: nowrap;
-        }
-
-        .social-links a:hover {
-            text-decoration: underline;
-        }
-        .education-entry {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            border-left: 3px solid #3498db;
-            background: #f8f9fa;
-        }
-
-        .degree h3 {
-            margin: 0;
-            color: #2c3e50;
-        }
-
-        .institution {
-            font-weight: 500;
-            color: #34495e;
-            margin: 0.5rem 0;
-        }
-
-        .date {
-            color: #7f8c8d;
-            font-style: italic;
-            margin: 0;
-        }
-
-        .achievements {
-            margin-top: 1rem;
-            padding-left: 1.5rem;
-        }
-        .experience-entry {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            border-left: 3px solid #2ecc71;
-            background: #f8f9fa;
-            }
-
-            .role h3 {
-            margin: 0;
-            color: #2c3e50;
-            }
-
-            .company {
-            font-weight: 500;
-            color: #34495e;
-            margin: 0.5rem 0;
-            }
-
-            .responsibilities {
-            margin-top: 1rem;
-            padding-left: 1.5rem;
-        }
-        .link-entry {
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            background: #f8f9fa;
-            border-radius: 4px;
-        }
-
-        .link-entry a {
-            color: #3498db;
-            font-weight: 500;
-            text-decoration: none;
-        }
-
-        .description {
-            margin: 0.5rem 0 0 0;
-            color: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -194,7 +21,7 @@
 
     <main>
         <section class="links">
-            <h2>Neuroscience and Math</h2>
+            <h2>Neuroscience</h2>
             <div class="link-entry">
                 <a href="https://flywire.ai/">Fly Wire</a>
                 <p class="description">This is an incredible technical achievement. Can someone please fund me so that I can spend some time playing with this dataset?</p>
@@ -205,8 +32,11 @@
             </div>
             <div class="link-entry">
                 <a href="https://sites.krieger.jhu.edu/daeyeol-lee-lab/">Daeyeol Lee's Lab at JHU</a>
-                <p class="description">My Ph.D. Lab. I owe so much of the way I approach science to Daeyeol.</p>
+                <p class="description">My Ph.D. Lab.</p>
             </div>
+        </section>
+        <section class="links">
+            <h2>Math</h2>
             <div class="link-entry">
                 <a href="https://www.smu.edu/dedman/academics/departments/math/people/faculty/alejandroaceves">Alejandro Aceves</a>
                 <p class="description">My Master's thesis advisor. A wonderful mentor, educator, and human being.</p>
